@@ -239,3 +239,18 @@ height: 300px;
   font-weight: bold; /* tiêu đề in đậm */
   font-size: 16px;
 }
+
+  .slide {
+    display: none;
+  }
+
+
+  /* Hiệu ứng mờ dần */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1s;
+  }
+  @keyframes fade {
+    from {opacity: 0.4} 
+    to {opacity: 1}
+  }
